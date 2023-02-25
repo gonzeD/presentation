@@ -12,5 +12,5 @@
   }
 </style>
 
-<a href="/{base}" class="underline">← Retour&nbsp;&nbsp;</a>
+<a href="{base}" class="underline">← Retour&nbsp;&nbsp;</a>
 <slot/>

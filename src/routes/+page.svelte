@@ -54,7 +54,7 @@
 <img src={img} alt=""/>
 
 <div class="Btns">
-  <a href="/{base}/web">Web<br/>dev</a>
-  <a href="/{base}/games">Game designer</a>
-  <a href="/{base}/contact">Me<br/>contacter</a>
+  <a href="{base}/web">Web<br/>dev</a>
+  <a href="{base}/games">Game designer</a>
+  <a href="{base}/contact">Me<br/>contacter</a>
 </div>
