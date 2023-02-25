@@ -45,6 +45,7 @@
 
 <script lang="ts">
   import img from "$lib/temp.jpg"
+  import { base } from '$app/paths';
 </script>
 
 
@@ -53,7 +54,7 @@
 <img src={img} alt=""/>
 
 <div class="Btns">
-  <a href="/web">Web<br/>dev</a>
-  <a href="/games">Game designer</a>
-  <a href="/contact">Me<br/>contacter</a>
+  <a href="/{base}/web">Web<br/>dev</a>
+  <a href="/{base}/games">Game designer</a>
+  <a href="/{base}/contact">Me<br/>contacter</a>
 </div>

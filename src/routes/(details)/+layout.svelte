@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { base } from '$app/paths';
 </script>
 
 <style>
@@ -11,5 +12,5 @@
   }
 </style>
 
-<a href="/" class="underline">← Retour&nbsp;&nbsp;</a>
+<a href="/{base}" class="underline">← Retour&nbsp;&nbsp;</a>
 <slot/>
