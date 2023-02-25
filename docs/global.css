@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-head 
+head,script, style
 {
   display: none;
 }
