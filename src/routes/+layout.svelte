@@ -15,6 +15,17 @@
     position: relative;
     min-height: 600px;
   }
+
+  @media only screen and (max-width: 600px) {
+    .Card 
+    {
+      width : 100%;
+      max-width: 100%;
+      padding : 30px;
+      height: 80vh;
+      min-height: 700px;
+    }
+  }
 </style>
 
 

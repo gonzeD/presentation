@@ -41,6 +41,19 @@
     background-color: #333;
     box-shadow : 0 0 6px 0 rgba(0,0,0,1);
   }
+
+  
+  @media only screen and (max-width: 600px) {
+    .Btns 
+    {
+      flex-direction: column;
+      margin : 10px auto;
+    }
+    .Btns a 
+    {
+      margin : 10px;
+    }
+  }
 </style>
 
 <script lang="ts">
@@ -55,6 +68,6 @@
 
 <div class="Btns">
   <a href="{base}/web">Web<br/>dev</a>
-  <a href="{base}/games">Game designer</a>
   <a href="{base}/contact">Me<br/>contacter</a>
+  <a href="{base}/games">Game designer</a>
 </div>
