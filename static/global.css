@@ -9,7 +9,7 @@ head
   display: none;
 }
 
-html, body 
+html
 {
   width : 100%;
   height : 100%;
@@ -18,6 +18,7 @@ html, body
 
 body 
 {
+  height : 100%;
   overflow-x : hidden;
   overflow-y:scroll;
 }
